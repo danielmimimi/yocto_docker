@@ -18,9 +18,9 @@ git config --list
 
 YOCTO_DIR="${DOCKER_WORKDIR}/${IMX_RELEASE}-build"
 
-MACHINE="imx8mnevk"
+MACHINE="imx8mp-lpddr4-evk"
 DISTRO="fsl-imx-xwayland"
-IMAGES="imx-image-full"
+IMAGES="eiq-apps"
 
 REMOTE="https://source.codeaurora.org/external/imx/imx-manifest"
 BRANCH="imx-linux-hardknott"
