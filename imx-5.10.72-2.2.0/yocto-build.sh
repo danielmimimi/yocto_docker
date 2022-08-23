@@ -25,5 +25,5 @@ EULA=1 MACHINE="${MACHINE}" DISTRO="${DISTRO}" source imx-setup-release.sh -b bu
 
 # Build
 
-bitbake ${IMAGES}
+bitbake ${IMAGES} -k
 
